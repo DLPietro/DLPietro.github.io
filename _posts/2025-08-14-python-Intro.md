@@ -1,15 +1,16 @@
 ---
 title: "📖 Day 1 – Python Intro & First Steps with Financial Data"
 date: 2025-08-14 18:45:26 +0200
+categories: [python, roadmap, data]
 ---
 
-# 📖 Day 1 – Python Intro & First Steps with Financial Data
+# Intro
 
 Today I started my journey into Python for Finance. The first step was to familiarize myself with the language basics and apply them immediately on financial datasets.
 
 # Main Goals:
 
-- Understand Python functions and lists
+- First approach with python basics and standard
 - Download financial data with yfinance
 - Calculate daily and annualized returns
 
@@ -26,6 +27,8 @@ Today I started my journey into Python for Finance. The first step was to famili
 
 # Code Snippet Final
 
+<pre>
+```python
 import yfinance as yf, pandas as pd
 
 data = yf.download(['AAPL','MSFT','GOOGL'], period='60d')
@@ -33,8 +36,12 @@ close = data['Close']
 
 returns = close.pct_change().dropna()
 annualized_return = (1 + returns.mean())**252 - 1
+```
+</pre>
 
 # Next Step
 👉 Apply daily returns logic to more assets and explore volatility.
 
-Here are the notes and the script: https://github.com/DLPietro/learning-roadmap/blob/main/notebooks/day_1.ipynb
+# Here are the project links below:
+- 🔗 [GitHub Repository](https://github.com/DLPietro/learning-roadmap)
+- 📊 [Google Colab](https://colab.research.google.com/github/DLPietro/learning-roadmap/blob/main/day_1.ipynb)
