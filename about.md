@@ -4,7 +4,7 @@ title: About Me
 permalink: /about-me/
 ---
 
-## 💖 I'm Pietro Di Leo — From repetitive tasks to cooler projects
+## 🔴 I'm Pietro Di Leo — From repetitive tasks to cooler projects
 
 Let's be honest: I did the “Standard Path” like the majority of people outside:
 - University completed (Master’s in Quantitative Finance)
