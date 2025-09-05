@@ -16,7 +16,9 @@ Practising, making mistakes and correcting them during these first days, I was f
 
 # Step by Step
 📍 Step 1: Defined a calc_daily_returns() function.
+
 📍 Step 2: Added calc_annualized_return() and volatility calculations.
+
 📍 Step 3: Tested functions with multiple tickers (in our case, I used a sample of 3 assets).
 
 # Challenges / Insights
