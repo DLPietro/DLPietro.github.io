@@ -16,7 +16,9 @@ Today I started my journey into Python for Finance. The first step was to famili
 
 # Step by Step
 📍 Step 1: Installed and imported yfinance and pandas.
+
 📍 Step 2: Downloaded 60 days of Apple, Microsoft, and Google data.
+
 📍 Step 3: Wrote a function to calculate daily returns and annualized returns.
 
 # Challenges / Insights
