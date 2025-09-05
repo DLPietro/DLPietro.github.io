@@ -1,57 +1,78 @@
 ---
 layout: page
 title: About Me
-permalink: /about/
+permalink: /about-me/
 ---
 
-## 👋 Hi, I'm Domenico Pietro
+## 💖 I'm Pietro Di Leo — From repetitive tasks to cooler projects
 
-I'm a finance professional transitioning into **data analytics**, with a background in **custody operations** and a **Master’s in Quantitative Finance**.
+Let's be honest: I did the “Standard Path” like the majority of people outside:
+- University completed (Master’s in Quantitative Finance)
+- Job in Finance gotten (3 years in custody operations)
+- I did the work, met the deadlines, learned the rules
 
-For the past few years, I've worked in operational roles where precision, compliance, and data accuracy were critical — but I always asked:  
-> *"Can we automate this report?"*  
-> *"What does this data tell us about performance?"*  
-> *"How can we turn numbers into decisions?"*
+...
 
-That curiosity led me to start a **structured journey into data** — learning Python, SQL, and Tableau through hands-on projects that solve real-world problems.
+...But after a while, I got restless.
 
----
+## 🤔 Why I've been planning something more
 
-## 📌 My Journey: From Operations to Data-Driven Insights
+The stability of the role is not enough to cover:
+- **repetitive and manual tasks** — Excel without macros, PDF reports, scanning documents, endless copy-paste...
+- My skills in statistics and modeling were **collecting dust**, as stuff piled up in the loft
+- The tools date back to the Middle Ages
 
-### 🏦 Finance & Custody Operations
-I spent 3 years in custody operations, managing settlement processes and client reporting. This gave me a deep understanding of **financial data flows**, **regulatory requirements**, and the **importance of data integrity**.
+I realized this thing:  
+**I'm not solving problems: I'm a cog in the machine!**
 
-But I wanted to go beyond execution — to **drive decisions**, not just support them.
-
-### 📚 Master’s in Quantitative Finance
-My academic background gave me a solid foundation in **risk modeling**, **statistical analysis**, and **financial markets** — skills I now apply to data problems.
-
-### 🚀 Upskilling in Data
-Now, I'm building practical expertise in:
-- **Python**: for automation, analysis, and risk modeling
-- **SQL**: for querying and transforming data
-- **Tableau / Power BI**: for visualization and reporting
-- **Git & GitHub**: for version control and open learning
-
-Every project I build — from a portfolio risk calculator to a simulated iGaming analytics dashboard — is a step toward becoming a **data analyst who understands both the numbers and the business behind them**.
+So I made a choice:  
+# Stop waiting for the company to upskill me, I’d rather build my own path!!! 🔥🔥🔥
 
 ---
 
-## 🛠 Current Focus
-- Building real-world data projects
-- Mastering SQL for business intelligence
-- Learning to tell stories with data
-- Transitioning into a data role in finance, fintech, or iGaming
+## ⭐ My Self-Driven Transition into Data
+
+I've been learning, using, banging my head on:
+- **Python** — why to use it, and how
+- **SQL** — enogh Excel, 1000 times better
+- **Tableau** — to show insights USEFUL for clients
+- **Git & GitHub** — to work like a real developer, not the guy who discovered Canva and said 'OMG, this is the future!!'
+
+
+So, I've been building **Real Projects**:
+- A **Portfolio Risk Calculator** in Python (computes Sharpe, CVaR, drawdowns)
+- A **Empirical Data analysis** - 10 yrs of time series comparing S&P 500, ETFs, and active funds (R, GARCH, backtesting)
+- A **simulated iGaming analytics project** (SQL, cohort analysis, dashboards)
+
+This is NOT “Just learning and getting my certificate” — it’s **Gentlemen, that's the service I can do for you!!**.
 
 ---
 
-## 📬 Let’s Connect
-I'm always open to discussing data, learning, or collaboration.
+## 💻 All Very nice, but why Data?
 
-- 📧 [dlpietro@example.com](mailto:dlpietro@example.com)
+Let's be real: I could keep doing the same job, year after year, however I don’t want to trade my time for a salary that doesn’t reflect what I can deliver.
+
+That's why I’m investing in these skills, because I believe my work — **real analysis, automation, insight generation** — has more value than manual processing, in a world where **impact is rewarded**, not just presence.
+
+This isn’t just a career move: it’s about building an entire future where my effort, curiosity, and code are **recognized and fairly valued**.
+
+I’m not trying to be a “rockstar data scientist”.  
+I want to be a **pragmatic analyst** who:
+- Understands the business
+- Writes clean, useful code
+- Turns questions into answers
+
+---
+
+## 😊 Let’s Talk
+
+I’m based in Malta, fluent in English, Spanish and Italian, open to remote or EU-based roles in data analytics, BI, or fintech.
+
+If you’re building a team that **doesn't beat around the bush**, I’d be happy to connect.
+
+- 📧 [dileopie@gmail.com](mailto:dileopie@gmail.com)
 - 🔗 [LinkedIn](https://linkedin.com/in/dlpietro)
-- 💻 [GitHub Profile](https://github.com/DLPietro)
-- 📝 [My Data Blog](https://dlpietro.github.io)
+- 💻 [GitHub](https://github.com/DLPietro)
+- 📝 [Blog](https://dlpietro.github.io)
 
-📍 Based in **Malta** | 🌍 Open to remote & EU-based roles
+## ❌ No corporate fluff. ✅ Just real work.
