@@ -8,14 +8,14 @@ permalink: /about-me/
 
 Let's be honest: I did the “Standard Path” like the majority of people outside:
 - University completed (Master’s in Quantitative Finance)
-- Job in Finance gotten (3 years in custody operations)
+- Job in Finance obtained (3 years in custody operations)
 - I did the work, met the deadlines, learned the rules...
 
 ...But after a while, I got restless.
 
 ## 🤔 Why I've been planning something more
 
-The stability of the role is not enough to cover:
+The stability of the role is not enough to compensate:
 - **repetitive and manual tasks** — Excel without macros, PDF reports, scanning documents, endless copy-paste...
 - My skills in statistics and modeling were **collecting dust**, as stuff piled up in the loft
 - The tools date back to the Middle Ages
@@ -32,7 +32,7 @@ So I made a choice:
 
 I've been learning, using, banging my head on:
 - **Python** — why to use it, and how
-- **SQL** — enogh Excel, 1000 times better
+- **SQL** — enough Excel, 1000 times better
 - **Tableau** — to show insights USEFUL for clients
 - **Git & GitHub** — to work like a real developer, not the guy who discovered Canva and said 'OMG, this is the future!!'
 
@@ -48,7 +48,7 @@ This is NOT “Just learning and getting my certificate” — it’s **Gentleme
 
 ## 💻 All very nice, but why Data?
 
-Let's be real: I could keep doing the same job, year after year, however I don’t want to trade my time for a salary that doesn’t reflect what I can deliver.
+Let's be real: I could keep doing the same job, year after year; however, I don’t want to trade my time for a salary that doesn’t reflect what I can deliver.
 
 That's why I’m investing in these skills, because I believe my work — **real analysis, automation, insight generation** — has more value than manual processing, in a world where **impact is rewarded**, not just presence.
 
@@ -64,7 +64,7 @@ I want to be a **pragmatic analyst** who:
 
 ## 😊 Let’s Talk
 
-I’m based in Malta, fluent in English, Spanish and Italian, open to remote or EU-based roles in data analytics, BI, or fintech.
+I’m based in Malta, fluent in English, Spanish, and Italian, and open to remote or EU-based roles in data analytics, BI, or fintech.
 
 If you’re building a team that **doesn't beat around the bush**, I’d be happy to connect.
 
