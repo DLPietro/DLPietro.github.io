@@ -16,7 +16,9 @@ This exercise was about moving from Python lists to Pandas Series and DataFrames
 
 # Step by Step
 📍 Step 1: Downloaded 3 tickers (IWM, GLD, IGOV), to start practising with matrices.
+
 📍 Step 2: Selected closing prices and volume into separate DataFrames, and working with them.
+
 📍 Step 3: Defined a function to calculate daily returns with .pct_change().
 
 # Challenges / Insights
