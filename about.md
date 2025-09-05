@@ -46,7 +46,7 @@ This is NOT “Just learning and getting my certificate” — it’s **Gentleme
 
 ---
 
-## 💻 All Very nice, but why Data?
+## 💻 All very nice, but why Data?
 
 Let's be real: I could keep doing the same job, year after year, however I don’t want to trade my time for a salary that doesn’t reflect what I can deliver.
 
@@ -68,9 +68,8 @@ I’m based in Malta, fluent in English, Spanish and Italian, open to remote or 
 
 If you’re building a team that **doesn't beat around the bush**, I’d be happy to connect.
 
-- 📧 [dileopie@gmail.com](mailto:dileopie@gmail.com)
-- 🔗 [LinkedIn](https://linkedin.com/in/dlpietro)
+- 📧 [Mail](mailto:dileopie@gmail.com)
+- 🔗 [LinkedIn](https://linkedin.com/in/pietrodileo)
 - 💻 [GitHub](https://github.com/DLPietro)
-- 📝 [Blog](https://dlpietro.github.io)
 
 ## ❌ No corporate fluff ✅ Just real work
