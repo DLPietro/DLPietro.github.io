@@ -9,9 +9,7 @@ permalink: /about-me/
 Let's be honest: I did the “Standard Path” like the majority of people outside:
 - University completed (Master’s in Quantitative Finance)
 - Job in Finance gotten (3 years in custody operations)
-- I did the work, met the deadlines, learned the rules
-
-...
+- I did the work, met the deadlines, learned the rules...
 
 ...But after a while, I got restless.
 
@@ -75,4 +73,4 @@ If you’re building a team that **doesn't beat around the bush**, I’d be happ
 - 💻 [GitHub](https://github.com/DLPietro)
 - 📝 [Blog](https://dlpietro.github.io)
 
-## ❌ No corporate fluff. ✅ Just real work.
+## ❌ No corporate fluff ✅ Just real work
