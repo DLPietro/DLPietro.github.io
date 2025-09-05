@@ -16,7 +16,9 @@ This day I explored rolling statistics in Pandas, applied to financial time seri
 
 # Step by Step
 📍 Step 1: Download of data Matrix with assets and volumes as per previous works (closing prices and volumes of IWM, GLD, IGOV).
+
 📍 Step 2: Calculated .pct_change(), 7-day moving average, and rolling std.
+
 📍 Step 3: Plotted returns, moving averages, and volatility together, comparing the performances of each asset.
 
 # Challenges / Insights
