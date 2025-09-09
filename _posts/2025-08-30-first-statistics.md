@@ -45,9 +45,9 @@ plt.show()
 
 # Plots
 
-![Pandas Plot: Daily Returns](/assets/img/daily_returns.png)
+![Pandas Plot: Daily Returns](/assets/img/1_daily_returns.png)
 
-![Pandas Plot: Moving Average](/assets/img/moving_average.png)
+![Pandas Plot: Moving Average](/assets/img/2_moving_average.png)
 
 # Next Step
 👉 Correlation analysis between assets.
