@@ -53,7 +53,7 @@ print("\nNormalized Prices:\n", normalized.head())
 
 # Plots
 
-![Pandas Plot: Daily Returns](/assets/img/normalized_prices.png)
+![Pandas Plot: Daily Returns](/assets/img/3_normalized_prices.png)
 
 # Next Step
 👉 Data Visualization with matplotlib & seaborn: comparing returns, correlations, and building clearer insights through plots.
