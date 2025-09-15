@@ -38,9 +38,11 @@ I've been learning, using, banging my head on:
 
 
 So, I've been building **Real Projects**:
-- A **Portfolio Risk Calculator** in Python (computes Sharpe, CVaR, drawdowns)
-- A **Empirical Data analysis** - 10 yrs of time series comparing S&P 500, ETFs, and active funds (R, GARCH, backtesting)
-- A **simulated iGaming analytics project** (SQL, cohort analysis, dashboards)
+
+- 🧮 **NAV Calculator** using Python (Net Asset Value Formula automised) 
+- 📈 **Portfolio Risk Calculator** in Python (computes Sharpe, CVaR, drawdowns)
+- 📊 **Empirical Data analysis** - 10 yrs of time series comparing S&P 500, ETFs, and active funds (R, GARCH, backtesting)
+- ⚠️ **Simulated iGaming analytics project** (SQL, cohort analysis, dashboards) - _⚠️ Work in Progress..._
 
 This is NOT “Just learning and getting my certificate” — it’s **Gentlemen, that's the service I can do for you!!**.
 
@@ -68,8 +70,8 @@ I’m based in Malta, fluent in English, Spanish, and Italian, and open to remot
 
 If you’re building a team that **doesn't beat around the bush**, I’d be happy to connect.
 
-- 📧 [Mail](mailto:dileopie@gmail.com)
-- 🔗 [LinkedIn](https://linkedin.com/in/pietrodileo)
-- 💻 [GitHub](https://github.com/DLPietro)
+[![Email](https://img.shields.io/badge/Email-d14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dileopie@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pietrodileo)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DLPietro)
 
 ## ❌ No corporate fluff ✅ Just real work
