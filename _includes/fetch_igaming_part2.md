@@ -1,5 +1,5 @@
 <iframe 
-  src="https://github.com/DLPietro/igaming-analytics-case-study/blob/main/docs/igaming-analysis-part-1.md?plain=1"
+  src="https://github.com/DLPietro/igaming-analytics-case-study/blob/main/docs/igaming-analysis-part-2.md?plain=1"
   width="100%"
   height="800px">
 </iframe>
