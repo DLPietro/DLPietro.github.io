@@ -1,0 +1,3 @@
+[submodule "igaming-analytics-case-study"]
+    path = _posts/igaming
+    url = https://github.com/DLPietro/igaming-analytics-case-study.git
