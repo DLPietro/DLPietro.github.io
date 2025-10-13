@@ -1,4 +1,10 @@
-<h2>Gaming Analytics Case Study</h2>
+---
+layout: default
+title: "iGaming"
+permalink: /igaming/
+---
+
+<h2>iGaming Analytics Case Study</h2>
 
 <div style="margin-top: 20px;">
   {% for post in site.posts %}
