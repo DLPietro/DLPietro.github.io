@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "📖 Day 6 – Data Cleaning & Basic Stats with Pandas"
+title: "📖 Day 6 – Data Cleaning"
 date: 2025-09-01 11:37:46 +0200
 categories: roadmap
 tags: [python, roadmap, analytics]
 ---
 
-# Intro
+# Handling values in a Dataset
 
 Today I focused on cleaning financial time series data and exploring basic descriptive statistics with pandas. Handling missing values and computing summary stats are essential skills before moving to more advanced financial models, and to make the basic statistics working.
 

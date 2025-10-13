@@ -4,7 +4,7 @@ title: About Me
 permalink: /about-me/
 ---
 
-## 🔴 I'm Pietro Di Leo — From repetitive tasks to cooler projects
+## 🌟 I'm Pietro Di Leo — From repetitive tasks to cooler projects
 
 Let's be honest: I did the “Standard Path” like the majority of people outside:
 - University completed (Master’s in Quantitative Finance)
@@ -13,7 +13,7 @@ Let's be honest: I did the “Standard Path” like the majority of people outsi
 
 ...But after a while, I got restless.
 
-## 🤔 Why I've been planning something more
+## ❔ Why I've been planning something more
 
 The stability of the role is not enough to compensate:
 - **repetitive and manual tasks** — Excel without macros, PDF reports, scanning documents, endless copy-paste...
@@ -24,11 +24,12 @@ I realized this thing:
 **I'm not solving problems: I'm a cog in the machine!**
 
 So I made a choice:  
+
 # Stop waiting for the company to upskill me, I’d rather build my own path!!! 🔥🔥🔥
 
 ---
 
-## ⭐ My Self-Driven Transition into Data
+## 🚀 My Self-Driven Transition into Data
 
 I've been learning, using, banging my head on:
 - **Python** — why to use it, and how
@@ -39,10 +40,10 @@ I've been learning, using, banging my head on:
 
 So, I've been building **Real Projects**:
 
-- 🎰 **Casino KPI Dashboard** (SQL, cohort analysis, dashboards) - _⚠️ NEW!!!_
-- 🧮 **NAV Calculator** using Python (Net Asset Value Formula automised) 
+- 🎲 **Casino KPI Dashboard** (SQL, cohort analysis, dashboards) - _⚠️ NEW!!!_
+- 📊 **NAV Calculator** using Python (Net Asset Value Formula automised) 
 - 📈 **Portfolio Risk Report** in Python (computes Sharpe, CVaR, drawdowns)
-- 📊 **Empirical Data analysis** - 10 yrs of time series comparing S&P 500, ETFs, and active funds (R, GARCH, backtesting)
+- 💻 **Empirical Data analysis** - 10 yrs of time series comparing S&P 500, ETFs, and active funds (_R, GARCH, backtesting_)
 
 This is NOT “Just learning and getting my certificate” — it’s **Gentlemen, that's the service I can do for you!!**.
 
@@ -70,8 +71,12 @@ I’m based in Malta, fluent in English, Spanish, and Italian, and open to remot
 
 If you’re building a team that **doesn't beat around the bush**, I’d be happy to connect.
 
-[![Email](https://img.shields.io/badge/Email-d14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dileopie@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pietrodileo)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DLPietro)
+> ## ❌ No corporate fluff ✅ Just real work
 
-## ❌ No corporate fluff ✅ Just real work
+## ⚡ Credits
+
+[![GitHub Profile](https://img.shields.io/badge/GitHub-DLPietro-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DLPietro)
+[![Email](https://img.shields.io/badge/Email-dileopie-d14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dileopie@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Pietro-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pietrodileo)
+
+> _© 2025 Pietro Di Leo — From Operations to Data. One Commit at a Time._

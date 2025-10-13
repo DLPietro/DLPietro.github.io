@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "📖 Day 1 – Python Intro & First Steps with Financial Data"
+title: "📖 Day 1 – Intro"
 date: 2025-08-14 18:45:26 +0200
 categories: roadmap
 tags: [python, roadmap, analytics]
 ---
 
-# Intro
+# First Steps with Financial Data with Python
 
 Today I started my journey into Python for Finance. The first step was to familiarize myself with the language basics and apply them immediately on financial datasets.
 

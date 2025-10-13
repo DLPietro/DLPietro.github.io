@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "📖 Day 5 – Moving Averages & Rolling Statistics"
+title: "📖 Day 5 – Financial Statistics"
 date: 2025-08-30 17:32:15 +0200
 categories: roadmap
 tags: [python, roadmap, analytics]
 ---
 
-# Intro
+# Rolling Statistics: Moving Average
 
 This day I explored rolling statistics in Pandas, applied to financial time series; this lets me smooth data and analyzing volatility trends.
 

@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "📖 Day 4 – Pandas Basics: Series & DataFrame"
+title: "📖 Day 4 – Pandas Basics"
 date: 2025-08-27 10:51:26 +0200
 categories: roadmap
 tags: [python, roadmap, analytics]
 ---
 
-# Intro
+# Series & DataFrame
 
 This exercise was about moving from Python lists to Pandas Series and DataFrames: using this library, the work will be easier and more focused on financial analysis.
 

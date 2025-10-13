@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "📖 Day 7 – Data Visualization for Finance"
+title: "📖 Day 7 – Summary: First Week"
 date: 2025-09-03 21:10:05 +0200
 categories: roadmap
 tags: [python, roadmap, analytics]
 ---
 
-# Intro
+# Data Visualization
 
 On Day 7, I wrapped up Week 1: Python Basics by exploring one of the most important tools for financial analysis: data visualization.
 Plotting time series helps us understand asset trends, compare performance, and investigate correlations between returns.

@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "📖 Day 2 – Functions & Financial Calculations"
+title: "📖 Day 2 – Functions & Calculations"
 date: 2025-08-20 19:12:48 +0200
 categories: roadmap
 tags: [python, roadmap, analytics]
 ---
 
-# Intro
+# First Operations in Data & Python
 
 Practising, making mistakes and correcting them during these first days, I was focused on building reusable functions in Python, and calculating financial metrics using functions.
 

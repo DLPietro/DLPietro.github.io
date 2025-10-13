@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "📖 Day 3 – Python Essentials: Inputs, Conditions, Loops & Strings"
+title: "📖 Day 3 – Python Essentials"
 date: 2025-08-26 18:41:36 +0200
 categories: roadmap
 tags: [python, roadmap, analytics]
 ---
 
-# Intro
+# Inputs, Conditions, Loops & Strings
 
 I focused on practising the fundamentals of Python programming: inputs, conditions, loops, and string manipulation. Basically, the essential building block, not only for basics, but also for financial analysis tasks (e.g., validating inputs, iterating over datasets, etc.).
 
