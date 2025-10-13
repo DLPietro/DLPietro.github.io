@@ -6,7 +6,7 @@ categories: igaming
 tags: [python, sql, tableau, igaming, analytics]
 ---
 
-# Intro
+# End: from Week to Month Analysis
 
 I opened Tableau for the first time, and I didn’t drag and drop.
 

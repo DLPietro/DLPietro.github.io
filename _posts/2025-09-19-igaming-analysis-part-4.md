@@ -6,7 +6,7 @@ categories: igaming
 tags: [python, sql, tableau, igaming, analytics]
 ---
 
-# Intro
+# More volatility, more risk
 
 I changed the session distribution for more realism.
 

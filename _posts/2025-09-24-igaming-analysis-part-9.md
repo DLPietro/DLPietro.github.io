@@ -6,7 +6,7 @@ categories: igaming
 tags: [python, sql, tableau, igaming, analytics]
 ---
 
-# Intro
+# Data visualization with Tableau 
 
 I opened Tableau for the first time. MADNESS!!
 

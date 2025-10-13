@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "📖 Day 2 – Functions & Financial Calculations"
 date: 2025-08-20 19:12:48 +0200
-categories: [python, roadmap, data]
+categories: roadmap
+tags: [python, roadmap, analytics]
 ---
 
 # Intro

@@ -6,7 +6,7 @@ categories: igaming
 tags: [python, sql, tableau, igaming, analytics]
 ---
 
-# Intro
+# Churn Analysis with Matchine Learning
 
 I built a churn predictor using **Logistic Regression** from the skit-learn library package, trained on **1,200 players**.
 

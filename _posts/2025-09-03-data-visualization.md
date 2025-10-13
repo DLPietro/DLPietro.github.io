@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "📖 Day 7 – Data Visualization for Finance"
 date: 2025-09-03 21:10:05 +0200
-categories: [python, roadmap, data, pandas]
+categories: roadmap
+tags: [python, roadmap, analytics]
 ---
 
 # Intro

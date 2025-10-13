@@ -6,7 +6,7 @@ categories: igaming
 tags: [python, sql, tableau, igaming, analytics]
 ---
 
-# Intro
+# Key Performance Indicators
 
 After simulating the “sessions”, it's time to simulate **money** movements; so I added the key factors of the iGaming sector:
 

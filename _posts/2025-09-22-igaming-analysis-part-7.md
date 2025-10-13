@@ -6,7 +6,7 @@ categories: igaming
 tags: [python, sql, tableau, igaming, analytics]
 ---
 
-# Intro
+# Plotting Retention Heatmap
 
 I rewrote the cohort analysis — **in Python** — using _Pandas_, _Numpy_, and the simulated weekly dataset in .csv format. The choice to select Python to continue with the script to simplify the process, and the libraries can help a lot.
 

@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "📖 Day 6 – Data Cleaning & Basic Stats with Pandas"
 date: 2025-09-01 11:37:46 +0200
-categories: [python, roadmap, data, pandas]
+categories: roadmap
+tags: [python, roadmap, analytics]
 ---
 
 # Intro

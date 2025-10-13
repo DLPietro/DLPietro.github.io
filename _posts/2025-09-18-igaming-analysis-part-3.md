@@ -6,7 +6,7 @@ categories: igaming
 tags: [python, sql, tableau, igaming, analytics]
 ---
 
-# Intro
+# Enhancing sessions and players
 
 Today I realised I’m simulating a “small sample”: I modified it.
 

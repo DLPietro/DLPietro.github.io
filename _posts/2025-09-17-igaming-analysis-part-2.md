@@ -6,7 +6,7 @@ categories: igaming
 tags: [python, sql, tableau, igaming, analytics]
 ---
 
-# Intro
+# Improving elements: devices, games, bonuses, etc.
 
 I added new rows for the data_generator.py script: adding devices, bonuses, probabilities to win, and lose. Created the .csv dataset of simulated sessions.
 

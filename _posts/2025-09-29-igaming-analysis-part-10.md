@@ -2,11 +2,11 @@
 layout: post
 title: "🎲 Casino Analytics Dashboard - Part 10"
 date: 2025-09-29 23:55:54 +0200
-ccategories: igaming
+categories: igaming
 tags: [python, sql, tableau, igaming, analytics]
 ---
 
-# Intro
+# Dataset Improvements
 
 I scaled from 10,000 → **40,000 sessions**, because **7 days don’t reveal retention patterns.**
 

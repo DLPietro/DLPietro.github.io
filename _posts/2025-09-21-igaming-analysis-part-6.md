@@ -6,7 +6,7 @@ categories: igaming
 tags: [python, sql, tableau, igaming, analytics]
 ---
 
-# Intro
+# SQL Cohort retention
 
 I wrote the SQL cohort analysis to find **who’s about to leave**.
 

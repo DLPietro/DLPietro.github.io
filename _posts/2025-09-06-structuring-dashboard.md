@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "📖 Day 8 – Structuring the Dashboard"
 date: 2025-09-06 23:54:24 +0200
-categories: [python, roadmap, data, pandas]
+categories: roadmap
+tags: [python, roadmap, analytics]
 ---
 
 # Intro

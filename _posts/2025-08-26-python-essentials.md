@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "📖 Day 3 – Python Essentials: Inputs, Conditions, Loops & Strings"
 date: 2025-08-26 18:41:36 +0200
-categories: [python, roadmap, data]
+categories: roadmap
+tags: [python, roadmap, analytics]
 ---
 
 # Intro

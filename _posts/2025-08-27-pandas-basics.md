@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "📖 Day 4 – Pandas Basics: Series & DataFrame"
 date: 2025-08-27 10:51:26 +0200
-categories: [python, roadmap, data, pandas]
+categories: roadmap
+tags: [python, roadmap, analytics]
 ---
 
 # Intro

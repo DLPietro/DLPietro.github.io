@@ -1,7 +1,9 @@
 ---
+layout: post
 title: "📖 Day 1 – Python Intro & First Steps with Financial Data"
 date: 2025-08-14 18:45:26 +0200
-categories: [python, roadmap, data]
+categories: roadmap
+tags: [python, roadmap, analytics]
 ---
 
 # Intro
