@@ -2,7 +2,8 @@
 layout: post
 title: "🎲 Casino Analytics Dashboard - Part 1 "
 date: 2025-09-15 23:58:46 +0200
-categories: [python, sql, tableau, igaming, analytics]
+categories: igaming
+tags: [python, sql, tableau, igaming, analytics]
 ---
 
 # Intro

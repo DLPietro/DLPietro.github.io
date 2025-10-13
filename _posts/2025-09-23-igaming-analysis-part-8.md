@@ -2,7 +2,8 @@
 layout: post
 title: "🎲 Casino Analytics Dashboard - Part 8"
 date: 2025-09-23 21:51:50 +0200
-categories: [python, ml, churn, igaming]
+categories: igaming
+tags: [python, sql, tableau, igaming, analytics]
 ---
 
 # Intro
