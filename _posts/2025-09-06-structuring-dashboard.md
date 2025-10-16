@@ -6,7 +6,7 @@ categories: roadmap
 tags: [python, roadmap, analytics]
 ---
 
-# Intro
+# Introducing Analysis Dashboard
 
 On Day 8, I started structuring the foundation for my Market Analysis Dashboard.
 The focus was on creating reusable functions to download and clean financial time series, ensuring that missing values are handled correctly before moving into deeper analysis.
