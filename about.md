@@ -40,7 +40,8 @@ I've been learning, using, banging my head on:
 
 So, I've been building **Real Projects**:
 
-- 🎲 **Casino KPI Dashboard** (SQL, cohort analysis, dashboards) - _⚠️ NEW!!!_
+- 🎲 **iGaming Retention Test** (Python, A/B test, Machine Learning) - _⚠️ NEW!!!_
+- 🎲 **Casino KPI Dashboard** (SQL, cohort analysis, dashboards)
 - 📊 **NAV Calculator** using Python (Net Asset Value Formula automised) 
 - 📈 **Portfolio Risk Report** in Python (computes Sharpe, CVaR, drawdowns)
 - 💻 **Empirical Data analysis** - 10 yrs of time series comparing S&P 500, ETFs, and active funds (_R, GARCH, backtesting_)
