@@ -30,9 +30,6 @@ The next step in the iGaming analytics project was to **create realistic synthet
 >  
 > This mirrors what happens in **feature rollout or promo exposure scenarios** in real iGaming data.
 
-The interesting part?  
-Retention behavior in gaming is **non-linear**: you have short bursts of engagement, then long periods of silence. The model needs to reflect that.
-
 # Code Snippet
 
 ```python
