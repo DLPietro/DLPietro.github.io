@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🤖 iGaming Retention Test - Part 4"
+title: "🎯 iGaming Retention Test - Part 4"
 date: 2025-10-25 18:24:52 +0200
 categories: igaming
 tags: [machinelearning, sklearn, churn, modeling, python]

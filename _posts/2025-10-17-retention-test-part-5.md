@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🧱 iGaming Retention Test - Part 5"
+title: "🎯 iGaming Retention Test - Part 5"
 date: 2025-10-27 19:08:47 +0200
 categories: igaming
 tags: [sql, dataengineering, pipelines, analytics, retention]
