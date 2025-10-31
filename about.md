@@ -40,7 +40,7 @@ I've been learning, using, banging my head on:
 
 So, I've been building **Real Projects**:
 
-- 🎰 **iGaming Retention Test** (Python, A/B test, Machine Learning) - _⚠️ IN PROGRESS!!!_
+- 🎰 **iGaming Retention Test** (Python, A/B test, Machine Learning) - _🌟🌟🌟 NEW!!!🌟🌟🌟_
 - 🎲 **Casino KPI Dashboard** (SQL, cohort analysis, dashboards)
 - 📊 **NAV Calculator** using Python (Net Asset Value Formula automised) 
 - 📈 **Portfolio Risk Report** in Python (computes Sharpe, CVaR, drawdowns)
