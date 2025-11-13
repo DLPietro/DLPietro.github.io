@@ -37,8 +37,10 @@ As I started to build out the Tableau dashboard, it became clear that the **real
 
 # 📊 Tableau Visual: CI Dashboard
 
-![Customer Value by Tier](https://github.com/DLPietro/customer-intelligence-analytics-banking/blob/main/bi/customer_intelligence_dashboard.png)
+![Customer Value by Tier](https://github.com/DLPietro/DLPietro.github.io/tree/main/assets/img/b_dashboard.png)
 _The Dashboard shows the KPIs table, customer segmentation, credit card types, loan type an status barchart seen previously, and the Customer Value bubble chart._
+
+🔗 **[View the Live Dashboard 👉](https://public.tableau.com/views/CUstomerIntelligenceDashboard/Dashboard1?:language=it-IT&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
 
 ---
 
@@ -46,26 +48,26 @@ _The Dashboard shows the KPIs table, customer segmentation, credit card types, l
 
 After being inside this project, I can say one thing: building dashboards and writing SQL queries was not easy, but the real challenge is understanding **what kind of world that data comes from**.
 
-This dataset, as mentioned before, comes from the **U.S. banking market**, and you can feel it in every line of data.  
-Americans have a completely different relationship with money: **credit is not a danger**, it’s a tool.  
-They borrow to invest, to build, to move forward.  
-Debt, for them, is almost part of growth.
+This dataset, as mentioned before, comes from the **U.S. banking market**, and you can feel it; why? Americans have a completely different relationship with money: **credit is not a danger**, it’s a tool: they borrow to invest and build; the debt, for them, is justified as part of growth.
 
-In Europe, and especially in Southern Europe, it’s the opposite story.  
-We save before we spend. We fear debt, and we see loans as something exceptional, not strategic.  
-So while analyzing this dataset, I constantly found myself thinking:  
+In Europe (especially in Southern Europe) it’s the opposite story: **we save before spending**, we find it scary and dangerous.  
+
+So while analyzing this dataset, I genuinely found myself thinking:
+
 > “If these were European customers, half these behaviors would never appear.”
 
-That’s the interesting part — the same SQL queries, the same segmentation logic,  
-but a completely different **financial psychology** behind the numbers.
+That’s the interesting part: the same SQL queries, the same segmentation logic, but a completely different **financial psychology** behind the numbers, a **context** that has to be understood.  
 
-This project taught me that **analytics is not just about precision**,  
-it’s about **context**.  
-You can’t read data without understanding the culture it comes from.  
-
-And that’s what I love about this work — you start with columns and CSVs,  
-and end up questioning **how people live, think, and spend**.
+That's exactly the reason why I'm passionate about this work, because I start with columns, rows, queries and dashboard, and then I end up questioning **why people are doing this or that!!**
 
 💬 *Next step?* Maybe I’ll rebuild this entire analysis using **European-style banking data**, to see what happens when “credit” becomes the exception, not the rule.
 
-> From the dashboard to thinking.
+---
+
+# ⚡ Credits
+
+[![GitHub Profile](https://img.shields.io/badge/GitHub-DLPietro-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DLPietro)
+[![Email](https://img.shields.io/badge/Email-dileopie-d14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dileopie@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Pietro-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pietrodileo)
+
+> _© 2025 Pietro Di Leo. From Operations to Data, one Commit at a Time._

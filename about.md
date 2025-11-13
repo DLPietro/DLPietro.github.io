@@ -4,7 +4,7 @@ title: About Me
 permalink: /about-me/
 ---
 
-## 🌟 I'm Pietro Di Leo — From repetitive tasks to cooler projects
+## 🌟 I'm Pietro Di Leo. From repetitive tasks to cooler projects
 
 Let's be honest: I did the “Standard Path” like the majority of people outside:
 - University completed (Master’s in Quantitative Finance)
@@ -16,7 +16,7 @@ Let's be honest: I did the “Standard Path” like the majority of people outsi
 ## ❔ Why I've been planning something more
 
 The stability of the role is not enough to compensate:
-- **repetitive and manual tasks** — Excel without macros, PDF reports, scanning documents, endless copy-paste...
+- **repetitive and manual tasks:** Excel without macros, PDF reports, scanning documents, endless copy-paste...
 - My skills in statistics and modeling were **collecting dust**, as stuff piled up in the loft
 - The tools date back to the Middle Ages
 
@@ -34,19 +34,21 @@ So I made a choice:
 I've been learning, using, banging my head on:
 - **Python** — why to use it, and how
 - **SQL** — enough Excel, 1000 times better
-- **Tableau** — to show insights USEFUL for clients
+- **Tableau / Power BI** — to show insights USEFUL for clients
 - **Git & GitHub** — to work like a real developer, not the guy who discovered Canva and said 'OMG, this is the future!!'
 
 
 So, I've been building **Real Projects**:
 
-- 🎰 **iGaming Retention Test** (Python, A/B test, Machine Learning) - _🌟🌟🌟 NEW!!!🌟🌟🌟_
-- 🎲 **Casino KPI Dashboard** (SQL, cohort analysis, dashboards)
-- 📊 **NAV Calculator** using Python (Net Asset Value Formula automised) 
-- 📈 **Portfolio Risk Report** in Python (computes Sharpe, CVaR, drawdowns)
-- 💻 **Empirical Data analysis** - 10 yrs of time series comparing S&P 500, ETFs, and active funds (_R, GARCH, backtesting_)
+- 💰 **Customer Intelligence Analytics Banking (🌟NEW!!🌟)** _(SQL, PosgreSQL, DBeaver)_
+- 🎰 **iGaming Retention Test** _(Python, A/B test, Machine Learning)_
+- 🎲 **Casino KPI Dashboard** _(SQL, cohort analysis, dashboards)_
+- 📊 **NAV Calculator** _(Python, Net Asset Value Formula automised)_ 
+- 📈 **Portfolio Risk Report** _(Python, computes Sharpe, CVaR, drawdowns)_
+- 💻 **Empirical Data analysis** _(R, GARCH, backtesting, Time Series, Financial Data)_
 
-This is NOT “Just learning and getting my certificate” — it’s **Gentlemen, that's the service I can do for you!!**.
+❌ This IS NOT “Just learning and getting my certificate” 
+✅ It IS **"Gentlemen, that's the service I can do for you!!"**.
 
 ---
 
@@ -54,15 +56,16 @@ This is NOT “Just learning and getting my certificate” — it’s **Gentleme
 
 Let's be real: I could keep doing the same job, year after year; however, I don’t want to trade my time for a salary that doesn’t reflect what I can deliver.
 
-That's why I’m investing in these skills, because I believe my work — **real analysis, automation, insight generation** — has more value than manual processing, in a world where **impact is rewarded**, not just presence.
+That's why I’m investing in these skills, because I believe my work: **real analysis, automation and insight generation** has more value than manual processing, in a world where **impact is rewarded**, not just presence.
 
 This isn’t just a career move: it’s about building an entire future where my effort, curiosity, and code are **recognized and fairly valued**.
 
 I’m not trying to be a “rockstar data scientist”.  
 I want to be a **pragmatic analyst** who:
-- Understands the business
-- Writes clean, useful code
-- Turns questions into answers
+
+> Understands the business
+> Writes clean, useful code
+> Turns questions into answers
 
 ---
 
