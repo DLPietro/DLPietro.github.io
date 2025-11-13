@@ -6,7 +6,7 @@ categories: banking
 tags: [sql, postgresql, dataengineering, tableau, banking, analytics]
 ---
 
-# Setting Up & Expanding the Dataset
+# Setting the Dataset
 
 After years of working in the banking industry, handling data in Excel, copying and pasting from reports, I realized that I  wanted to truly **understand** the data and create actionable insights for the business: This project is my way out!!!
 
