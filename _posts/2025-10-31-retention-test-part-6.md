@@ -40,7 +40,7 @@ When a manager and technicians open the work:
 ![Tableau Preview](https://github.com/DLPietro/retention-test/blob/main/dashboard/retention_dashboard.png)  
 *Retetion and Feature Usage percentages higher for the treatment group, and lower churn rate.*
 
-# 🏆 Final Thought
+# 🏆 Final Thoughts
 
 > Clear comunications for decision-makers. Next steps will be cleaning and working with real-time datasets to be cleaned.
 

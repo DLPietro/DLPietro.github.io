@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "banking"
+title: "Banking"
 permalink: /banking/
 ---
 
