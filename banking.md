@@ -1,10 +1,10 @@
 ---
 layout: default
-title: "Banking Analytics"
+title: "banking"
 permalink: /banking/
 ---
 
-<h2>Banking Analytics Case Study</h2>
+<h2>Customer Intelligence Analytics Banking</h2>
 
 <div style="margin-top: 20px;">
   {% for post in site.posts %}
