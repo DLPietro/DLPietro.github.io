@@ -5,7 +5,8 @@ baseurl: ""
 url: "https://dlpietro.github.io"
 github_username: DLPietro
 
-theme: tale
+theme: minima
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
