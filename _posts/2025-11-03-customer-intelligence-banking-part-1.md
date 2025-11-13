@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🎯 Customer Intelligence Analytics Banking - Part 1"
+title: "🏦 Customer Intelligence Analytics Banking - Part 1"
 date: 2025-11-03 18:42:30 +0200
 categories: banking
 tags: [sql, postgresql, dataengineering, tableau, banking, analytics]
