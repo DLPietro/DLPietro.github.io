@@ -5,7 +5,7 @@ layout: home
 <h1>👋 Hi, I'm Pietro!!</h1>
 <p>I'm not just learning programming languages using tutorials: I'm creating real projects.</p>
 
-<p>Here’s where I document my journey from <strong>operations to data-driven insights</strong>. No fluff. Just code, analysis, and impact.</p>
+<p>Here’s where I document my journey from <strong>Operations to Data-driven insights</strong>. No fluff. Just code, analysis, and impact.</p>
 
 <br>
 <hr>
@@ -39,7 +39,7 @@ layout: home
 <p>I've been building more projects, and writing about them as below 👇</p>
 
 <p><strong>Customer Intelligence for Banking, with PosgreSQL and DBeaver</strong></p>
-<a href="https://github.com/DLPietro/customer-intelligence-analytics-banking" style="background: #5007fa; color: black; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-size: 14px; display: flex; align-items: center; gap: 8px;">
+<a href="https://github.com/DLPietro/customer-intelligence-analytics-banking" style="background: #5007fa; color: white; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-size: 14px; display: flex; align-items: center; gap: 8px;">
     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
     <strong>💰 Customer Intelligence Analytics Banking (🌟NEW!!🌟)</strong>
 </a>
@@ -74,11 +74,11 @@ layout: home
     iGaming Retention Test
 </a>
 
-<!-- iGaming Case Study: Auto-Generated Post List -->
+<!-- Auto-Generated Post List -->
 <div style="margin-top: 20px;">
   <h3><strong>📄 Latest Articles 📄</strong></h3>
   <ul>
-    {% for post in site.posts %}
+    {% for post in site.posts limit:10%}
       <li style="margin-bottom: 6px;">
         <a href="{{ post.url }}" style="text-decoration: none; color: #2176C7;">
           {{ post.title }}
