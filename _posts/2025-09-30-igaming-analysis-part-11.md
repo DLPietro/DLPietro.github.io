@@ -54,8 +54,9 @@ They ask:
 
 # Dashboard Link  
 
-<img src="https://github.com/DLPietro/igaming-analytics-case-study/blob/main/dashboard/casino_dashboard_screenshot.png" alt="Tableau Preview">
+<img src="https://github.com/DLPietro/igaming-analytics-case-study/raw/main/dashboard/retention_dashboard.png" alt="Tableau Preview">
 <p><em>Screenshot: Filter by Week 3 → see how retention drops to 15%. This isn’t theory: it’s real.</em></p>
+
 
 🔗 [View Live Dashboard →](https://public.tableau.com/views/CasinoKPIDashboard/CasinoKPIDashboardSimulatediGamingAnalytics?:language=it-IT&:sid=&:redirect=auth&showOnboarding=true&:display_count=n&:origin=viz_share_link)
 
