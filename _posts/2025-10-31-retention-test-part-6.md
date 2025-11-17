@@ -35,10 +35,11 @@ When a manager and technicians open the work:
 
 
 # Dashboard Link  
-🔗 [View Live Dashboard →](https://public.tableau.com/views/ABRetentionChurnOverview-DLPietro/RetentionAnalysisDashboard?:language=it-IT&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-![Tableau Preview](https://github.com/DLPietro/retention-test/blob/main/dashboard/retention_dashboard.png)  
-*Retetion and Feature Usage percentages higher for the treatment group, and lower churn rate.*
+<img src="https://github.com/DLPietro/retention-test/blob/main/dashboard/retention_dashboard.png" alt="Tableau Preview">
+<p><em>Retetion and Feature Usage percentages higher for the treatment group, and lower churn rate.</em></p>
+
+🔗 [View Live Dashboard →](https://public.tableau.com/views/ABRetentionChurnOverview-DLPietro/RetentionAnalysisDashboard?:language=it-IT&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 # 🏆 Final Thoughts
 

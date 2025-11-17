@@ -55,7 +55,8 @@ print("\nNormalized Prices:\n", normalized.head())
 
 # Plots
 
-![Pandas Plot: Daily Returns](/assets/img/3_normalized_prices.png)
+<img src="https://github.com/DLPietro/DLPietro.github.io/blob/main/assets/img/3_normalized_prices.png" alt="Prices">
+<p><em>Value Normalization.</em></p>
 
 # Next Step
 👉 Data Visualization with matplotlib & seaborn: comparing returns, correlations, and building clearer insights through plots.

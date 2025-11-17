@@ -64,9 +64,14 @@ print(correlation)
 
 # Plots
 
-![Pandas Plot: Daily Returns](/assets/img/4_sample_time_series.png)
-![Pandas Plot: Daily Returns](/assets/img/5_correlation_a.png)
-![Pandas Plot: Daily Returns](/assets/img/6_correlation_b.png)
+<img src="https://github.com/DLPietro/DLPietro.github.io/blob/main/assets/img/4_sample_time_series.png" alt="Time Series">
+<p><em>Sample.</em></p>
+
+<img src="https://github.com/DLPietro/DLPietro.github.io/blob/main/assets/img/5_correlation_a.png" alt="Correlation">
+<p><em>Corr. Part a.</em></p>
+
+<img src="https://github.com/DLPietro/DLPietro.github.io/blob/main/assets/img/6_correlation_b.png" alt="Correlation">
+<p><em>Corr. Part b.</em></p>
 
 # Next Step
 👉 With Week 1 complete, the next focus will be Week 2: Market Analysis Dashboard – Mini Project.

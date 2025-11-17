@@ -47,9 +47,7 @@ Profile:
 - Deposited €28  
 - Never used a bonus  
 
-**What do I do?** Send them a “CASINO20” bonus to check if they return.
-
-It’s **common sense — automated**.
+**What do I do?** Send them a “CASINO20” bonus to check if they return: it’s **common sense, automated**.
 
 
 # Code Snippet Final
@@ -65,4 +63,4 @@ top_risk.to_csv('reports/top_churn_risk_players.csv')
 </pre>
 
 # Next Step
-👉 Tableau report → _Time to visualize the results._
+👉 Tableau report: _Time to visualize the results._

@@ -47,9 +47,12 @@ plt.show()
 
 # Plots
 
-![Pandas Plot: Daily Returns](/assets/img/1_daily_returns.png)
+<img src="https://github.com/DLPietro/DLPietro.github.io/blob/main/assets/img/1_daily_returns.png" alt="Daily Returns">
+<p><em>Returns of the assets.</em></p>
 
-![Pandas Plot: Moving Average](/assets/img/2_moving_average.png)
+<img src="https://github.com/DLPietro/DLPietro.github.io/blob/main/assets/img/2_moving_average.png" alt="MA">
+<p><em>Moving Average.</em></p>
+
 
 # Next Step
 👉 Correlation analysis between assets.

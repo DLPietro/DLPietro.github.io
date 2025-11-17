@@ -37,8 +37,8 @@ As I started to build out the Tableau dashboard, it became clear that the **real
 
 # 📊 Tableau Visual: CI Dashboard
 
-![Customer Value by Tier](https://github.com/DLPietro/DLPietro.github.io/tree/main/assets/img/b_dashboard.png)
-_The Dashboard shows the KPIs table, customer segmentation, credit card types, loan type an status barchart seen previously, and the Customer Value bubble chart._
+<img src="https://github.com/DLPietro/DLPietro.github.io/raw/main/assets/img/b_dashboard.png" alt="Customer Value by Tier">
+<p><em>The dashboard shows the KPIs table, customer segmentation, credit card types, loan type and status barchart seen previously, and the Customer Value bubble chart.</em></p>
 
 🔗 **[View the Live Dashboard 👉](https://public.tableau.com/views/CUstomerIntelligenceDashboard/Dashboard1?:language=it-IT&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
 
