@@ -1,0 +1,12 @@
+title: Pietro Di Leo | Data Journey
+email: dlpie@gmail.com
+description: "From Operations to data analytics"
+baseurl: ""
+url: "https://dlpietro.github.io"
+github_username: DLPietro
+
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
