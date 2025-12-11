@@ -8,7 +8,7 @@ tagline: Data & Finance Builder
 description: >-
   blog, dlpietro, github
 
-url: "https://dlpietro.github.io/"
+url: "https://dlpietro.github.io"
 
 github:
   username: DLPietro
@@ -130,7 +130,7 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: "https://dlpietro.github.io/"
+baseurl: "https://dlpietro.github.io"
 
 # ------------ The following options are not recommended to be modified ------------------
 
