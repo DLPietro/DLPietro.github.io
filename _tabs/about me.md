@@ -8,16 +8,16 @@ order: 2
 ## 🌟 I'm Pietro Di Leo. From repetitive tasks to cooler projects
 
 Let's be honest: I did the “Standard Path” like the majority of people outside:
-- University completed (Master’s in Quantitative Finance)
-- Job in Finance obtained (3 years in custody operations)
-- I did the work, met the deadlines, learned the rules...
+- University completed (Master’s in Quantitative Finance) ✅
+- Job in Finance obtained (3 years in custody operations) ✅
+- I did the work, met the deadlines, learned the rules... ✅
 
-...But after a while, I got restless.
+...But after a while, **I got restless.**
 
 ## ❔ Why I've been planning something more
 
 The stability of the role is not enough to compensate:
-- **repetitive and manual tasks:** Excel without macros, PDF reports, scanning documents, endless copy-paste...
+- **Repetitive and manual tasks:** Excel without macros, PDF reports, scanning documents, endless copy-paste...
 - My skills in statistics and modeling were **collecting dust**, as stuff piled up in the loft
 - The tools date back to the Middle Ages
 
@@ -41,7 +41,8 @@ I've been learning, using, banging my head on:
 
 So, I've been building **Real Projects**:
 
-- 💰 **Customer Intelligence Analytics Banking (🌟NEW!!🌟)** _(SQL, PosgreSQL, DBeaver)_
+- 🏙️ **Louisville Payroll Analytics (🌟NEW!!🌟)** _(SQL, PosgreSQL, DBeaver, Tableau)_
+- 💰 **Customer Intelligence Analytics Banking** _(SQL, PosgreSQL, DBeaver)_
 - 🎰 **iGaming Retention Test** _(Python, A/B test, Machine Learning)_
 - 🎲 **Casino KPI Dashboard** _(SQL, cohort analysis, dashboards)_
 - 📊 **NAV Calculator** _(Python, Net Asset Value Formula automised)_ 
