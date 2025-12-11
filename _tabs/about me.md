@@ -8,9 +8,9 @@ order: 2
 ## 🌟 I'm Pietro Di Leo. From repetitive tasks to cooler projects
 
 Let's be honest: I did the “Standard Path” like the majority of people outside:
-- University completed (Master’s in Quantitative Finance) ✅
-- Job in Finance obtained (3 years in custody operations) ✅
-- I did the work, met the deadlines, learned the rules... ✅
+- University completed (Master’s in Quantitative Finance)   ✅
+- Job in Finance obtained (3 years in custody operations)   ✅
+- I did the work, met the deadlines, learned the rules...   ✅
 
 ...But after a while, **I got restless.**
 
@@ -41,7 +41,7 @@ I've been learning, using, banging my head on:
 
 So, I've been building **Real Projects**:
 
-- 🏙️ **Louisville Payroll Analytics (🌟NEW!!🌟)** _(SQL, PosgreSQL, DBeaver, Tableau)_
+- 📋 **Louisville Payroll Analytics (🌟NEW!!🌟)** _(Data Cleaning for Scratch)_
 - 💰 **Customer Intelligence Analytics Banking** _(SQL, PosgreSQL, DBeaver)_
 - 🎰 **iGaming Retention Test** _(Python, A/B test, Machine Learning)_
 - 🎲 **Casino KPI Dashboard** _(SQL, cohort analysis, dashboards)_
