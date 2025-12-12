@@ -28,16 +28,19 @@ It turned into a month-long journey full of permission errors, failed imports, w
 
 # 📋 Step by Step
 
-📍 **Step 1 – Losing time on PostgreSQL permissions**  
+📍 **Step 1: Losing time on PostgreSQL permissions**  
 Creating a simple table should be easy, right? It wasn’t. I hit `permission denied for schema public` more times than I can count. Fixing roles, grants, and reconnecting from DBeaver took longer than expected, but it forced me to really understand how PostgreSQL handles users and schemas.
 
-📍 **Step 2 – Designing the `salary_data` table and loading the CSV**  
+📍 **Step 2: Designing the `salary_data` table and loading the CSV**  
 Once permissions were fixed, I created a clean table for the dataset and used DBeaver’s import wizard. First attempt failed because of NOT NULL constraints and column mismatches. After adjusting the mapping (especially `cal_year`, `ytd_total`, and overtime columns), the dataset finally landed in PostgreSQL.
 
-📍 **Step 4 – Connecting Tableau Public and shaping the dashboard**  
+📍 **Step 3: Building indexes and analytical views**  
+With data in place, I added indexes on `department`, `cal_year`, `job_title`, and `ytd_total` to keep queries fast. Then I created views for department‑level summaries, top earners, and overtime analysis using aggregations and window functions.
+
+📍 **Step 4: Connecting Tableau Public and shaping the dashboard**  
 The last mile was visual. I connected Tableau directly to the views, built a yearly trend view (headcount + overtime %), a salary‑by‑department chart, an overtime‑by‑department chart, and a pay‑range‑by‑job‑title view for equity analysis.
 
-# ⚡ PostgreSQL & DBeaver: The Hard Part No One Shows
+# ⚡ PostgreSQL & DBeaver
 
 The biggest hidden time sink in this project was not SQL logic, but **environment setup**:
 
@@ -69,32 +72,61 @@ regular_rate NUMERIC(10, 2),
 
 ```
 
----
+On top of this raw table I added:
 
-# 🏆 Final Thoughts: The Other Side of the Dashboard
+- Indexes on `department`, `cal_year`, `job_title`, `ytd_total` for performance  
+- A view `v_department_summary` aggregating payroll, average salary and overtime per department/year  
+- A view `v_top_earners` ranking employees within each department/year using `ROW_NUMBER()`  
+- A view `v_overtime_analysis` focusing on the weight of overtime vs gross pay  
 
-After being inside this project, I can say one thing: building dashboards and writing SQL queries was not easy, but the real challenge is understanding **what kind of world that data comes from**.
-
-This dataset, as mentioned before, comes from the **U.S. banking market**, and you can feel it; why? Americans have a completely different relationship with money: **credit is not a danger**, it’s a tool: they borrow to invest and build; the debt, for them, is justified as part of growth.
-
-In Europe (especially in Southern Europe) it’s the opposite story: **we save before spending**, we find it scary and dangerous.  
-
-So while analyzing this dataset, I genuinely found myself thinking:
-
-> “If these were European customers, half these behaviors would never appear.”
-
-That’s the interesting part: the same SQL queries, the same segmentation logic, but a completely different **financial psychology** behind the numbers, a **context** that has to be understood.  
-
-That's exactly the reason why I'm passionate about this work, because I start with columns, rows, queries and dashboard, and then I end up questioning **why people are doing this or that!!**
-
-💬 *Next step?* Maybe I’ll rebuild this entire analysis using **European-style banking data**, to see what happens when “credit” becomes the exception, not the rule.
+This separation — raw table + analytical views — made Tableau integration much simpler.
 
 ---
 
-# ⚡ Credits
+# 🔑 First Insights
 
-[![GitHub Profile](https://img.shields.io/badge/GitHub-DLPietro-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DLPietro)
-[![Email](https://img.shields.io/badge/Email-dileopie-d14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dileopie@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Pietro-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pietrodileo)
+Even with “just” SQL and a couple of views, some patterns jumped out:
 
-> _© 2025 Pietro Di Leo. From Operations to Data, one Commit at a Time._
+> A small group of departments drives a huge share of total payroll and overtime, especially public safety units.  
+> Within specific job titles, the pay range can be enormous, hinting at strong differences in seniority, responsibility, or possible equity issues.  
+
+Turning a static CSV into a relational model made it much easier to ask questions like:
+
+- Which departments carry the highest payroll burden in 2024?  
+- Where is overtime structurally high vs. just occasional?  
+- Which roles have the widest salary range within the same title?
+
+These are exactly the kinds of questions stakeholders ask in real organizations — just translated to a public‑sector dataset.
+
+---
+
+# ⚙️ Example: Department Summary View
+
+One of the core pieces is a view that summarizes payroll per department and year:
+
+```sql
+CREATE VIEW v_department_summary AS
+SELECT
+cal_year,
+department,
+COUNT(*) AS employee_count,
+ROUND(AVG(annual_rate), 2) AS avg_annual_rate,
+ROUND(AVG(ytd_total), 2) AS avg_ytd_total,
+ROUND(SUM(ytd_total), 2) AS total_payroll,
+ROUND(AVG(overtime_rate), 2) AS avg_overtime
+FROM salary_data
+GROUP BY cal_year, department;
+```
+
+
+This view is the backbone for multiple charts in Tableau: ranking departments by total payroll, looking at average salary by year, or comparing overtime intensity across units.
+
+---
+
+# 🎯 Next Steps
+
+> Refine the SQL layer with additional views for equity metrics (salary range, standard deviation by job title).  
+> Polish the Tableau dashboard to make it **presentation‑ready** (clean color palette, consistent tooltips, clear titles).  
+> Write a technical README and link both the GitHub repo and the Tableau Public dashboard so others can reproduce the whole pipeline.  
+
+This project started with a messy CSV and a lot of trial‑and‑error in PostgreSQL. Now it’s a small but real analytics stack: database, SQL logic, BI layer, and documentation. Next posts will dive into the queries, the Tableau views, and the insights in more detail.
