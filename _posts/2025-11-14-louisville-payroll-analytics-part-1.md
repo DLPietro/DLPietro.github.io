@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "🏙️ Louisville Payroll Analytics – Part 1"
-date: 2025-11-10 19:15:00 +0200
+date: 2025-11-14 19:15:00 +0200
 categories: public-sector
 tags: [sql, postgresql, dataengineering, tableau, payroll, analytics]
 ---
@@ -26,37 +26,34 @@ I was tired of looking at public data as a huge CSV and _not really understandin
 
 # 📋 Step by Step
 
-📍 **Step 1: Losing time on PostgreSQL permissions**  
-Creating a simple table should be easy, but that's not: I hit `permission denied for schema public` more times than I can count. Fixing roles, grants, and reconnecting from DBeaver took longer than expected, but it forced me to really understand how PostgreSQL handles users and schemas.
+📍 **Step 1 (ETA 1-2 days): Losing time on PostgreSQL permissions**  
+Creating a simple table should be easy, but that's not: I hit `permission denied for schema public` more times than I can count; I had to fix roles, grants, and reconnecting from DBeaver. At least now I know how it handles users and schemas.
 
-📍 **Step 2: Designing the `salary_data` table and loading the CSV**  
-Once permissions were fixed, I created a clean table for the dataset and used DBeaver’s import wizard. First attempt failed because of NOT NULL constraints and column mismatches. After adjusting the mapping (especially `cal_year`, `ytd_total`, and overtime columns), the dataset finally landed in PostgreSQL.
+📍 **Step 2 (ETA 1-2 days): Designing the `salary_data` table and loading the CSV dataset**  
+Built a clean table for the dataset. First attempt failed because of NOT NULL constraints and column mismatches, annd after adjusting the mapping _(especially `cal_year`, `ytd_total`, and overtime columns)_, the dataset finally landed.
 
-📍 **Step 3: Building indexes and analytical views**  
-With data in place, I added indexes on `department`, `cal_year`, `job_title`, and `ytd_total` to keep queries fast. Then I created views for department‑level summaries, top earners, and overtime analysis using aggregations and window functions.
+📍 **Step 3 (ETA 1-2 days): Building queries**  
+added indexes on `department`, `cal_year`, `job_title`, and `ytd_total` to keep queries fast. I created views for department summaries, top earners, and overtime analysis using aggregations and window functions with several queries.
 
-📍 **Step 4: Connecting Tableau Public and shaping the dashboard**  
-The last mile was visual. I connected Tableau directly to the views, built a yearly trend view (headcount + overtime %), a salary‑by‑department chart, an overtime‑by‑department chart, and a pay‑range‑by‑job‑title view for equity analysis.
+📍 **Step 4 (ETA 1-2 days): Connecting Tableau Public and shaping the dashboard**  
+The last mile was visualising within Tableau, divided by grioups: trend view (headcount + overtime %), salary‑by‑department chart, aovertime‑by‑department chart, and a pay‑range‑by‑job‑title view for equity analysis.
 
-# ⚡ PostgreSQL & DBeaver
+---
 
-The biggest hidden time sink in this project was not SQL logic, but **environment setup**:
+# ⚡ PostgreSQL & DBeaver: the biggest issue
 
-- Wrong role: my user didn’t have privileges on schema `public`  
-- DBeaver kept failing silently on `CREATE TABLE` until I checked the server logs  
-- CSV import initially broke because the header mapping didn’t match the table schema and the first line was being treated as data, not as header  
+The most time consuming part wasn;t writing right queries, but **environment setup**:
 
-It sounds trivial on paper, but when you hit these problems at midnight after a long day, it’s easy to get discouraged.
+- DBeaver kept failing silently on `CREATE TABLE` until I amended the columns of the dataset;  
+- at the first attempt, the header didn’t match the table schema and the first line was being treated as data, not as header  
 
-Once I slowed down and treated the database like a real production system — checking roles, testing small queries, validating row counts — things became stable. At that point I could finally focus on **analysis instead of firefighting**.
+Once I slowed down and treated the database like an Excel matrix to be studied, things became stable, being able finally to focus on **analysis instead of fighting against the cells**.
 
 ---
 
 # 📊 Structuring the Louisville Dataset
 
-The original CSV contains thousands of rows with fields like year, employee name, department, job title, annual and year‑to‑date pay, plus overtime and allowances.
-
-I modeled it into a single fact table:
+The original CSV contains 41+K of rows with fields like year, employee name, department, job title, annual and YTD (Year‑To‑Date) pay, plus overtime and allowances, so I modeled it into a single fact table:
 
 ```sql
 CREATE TABLE salary_data (
@@ -77,54 +74,30 @@ On top of this raw table I added:
 - A view `v_top_earners` ranking employees within each department/year using `ROW_NUMBER()`  
 - A view `v_overtime_analysis` focusing on the weight of overtime vs gross pay  
 
-This separation — raw table + analytical views — made Tableau integration much simpler.
+This separation (raw table + analytical views) made Tableau integration much simpler.
 
 ---
 
 # 🔑 First Insights
 
-Even with “just” SQL and a couple of views, some patterns jumped out:
+Even with “just” some SQL queries and a couple of views, the first patterns jumped out:
 
-> A small group of departments drives a huge share of total payroll and overtime, especially public safety units.  
-> Within specific job titles, the pay range can be enormous, hinting at strong differences in seniority, responsibility, or possible equity issues.  
+> A small group of departments drives a huge share of total payroll and overtime (e.g. police department).  
+> Within specific job titles, the pay range can be enormous, hinting at strong differences in seniority and responsibility (e.g. mayor, etc.).  
 
 Turning a static CSV into a relational model made it much easier to ask questions like:
 
-- Which departments carry the highest payroll burden in 2024?  
-- Where is overtime structurally high vs. just occasional?  
-- Which roles have the widest salary range within the same title?
+- _Which departments carry the highest payroll burden in 2024?_  
+- _Is overtime structurally high or just occasional?_  
+- _Which roles have the widest salary range within the same title?_
 
-These are exactly the kinds of questions stakeholders ask in real organizations — just translated to a public‑sector dataset.
-
----
-
-# ⚙️ Example: Department Summary View
-
-One of the core pieces is a view that summarizes payroll per department and year:
-
-```sql
-CREATE VIEW v_department_summary AS
-SELECT
-cal_year,
-department,
-COUNT(*) AS employee_count,
-ROUND(AVG(annual_rate), 2) AS avg_annual_rate,
-ROUND(AVG(ytd_total), 2) AS avg_ytd_total,
-ROUND(SUM(ytd_total), 2) AS total_payroll,
-ROUND(AVG(overtime_rate), 2) AS avg_overtime
-FROM salary_data
-GROUP BY cal_year, department;
-```
-
-
-This view is the backbone for multiple charts in Tableau: ranking departments by total payroll, looking at average salary by year, or comparing overtime intensity across units.
+These are exactly the kinds of questions stakeholders ask in real organization datasets.
 
 ---
 
 # 🎯 Next Steps
 
 > Refine the SQL layer with additional views for equity metrics (salary range, standard deviation by job title).  
-> Polish the Tableau dashboard to make it **presentation‑ready** (clean color palette, consistent tooltips, clear titles).  
 > Write a technical README and link both the GitHub repo and the Tableau Public dashboard so others can reproduce the whole pipeline.  
 
-This project started with a messy CSV and a lot of trial‑and‑error in PostgreSQL. Now it’s a small but real analytics stack: database, SQL logic, BI layer, and documentation. Next posts will dive into the queries, the Tableau views, and the insights in more detail.
+**_To be continued..._**
