@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "🏙️ Louisville Payroll Analytics – Part 2: Setting Up PostgreSQL (The Hard Way)"
-date: 2025-11-05 19:20:00 +0200
+title: "🏙️ Louisville Payroll Analytics – Part 3"
+date: 2025-11-15 18:17:44 +0200
 categories: public-sector
 tags: [sql, postgresql, dbeaver, dataengineering, debugging]
 ---

@@ -6,30 +6,28 @@ categories: public-sector
 tags: [sql, postgresql, dataengineering, tableau, payroll, analytics]
 ---
 
-# From Payroll Chaos to Structured Analytics
+# 🏙️ From Database Chaos to Structured Analytics
 
 I was tired of looking at public data as a huge CSV and _not really understanding anything_: I wanted to go beyond “open data as a file” and build an actual **analytics pipeline** creating SQL queries, views, and a live dashboard.
 
-It turned into a month-long journey full of permission errors, failed imports, wrong joins, and a lot of satisfaction when things finally clicked.
-
-> **Turn the raw public sector salaries of a city (starting with Louisville) into a clean PostgreSQL schema + SQL views + a Tableau Public dashboard** that tells us a story about salaries, overtime and equity.
+> **Turn the raw public sector salaries of a city (starting with Louisville, a not-so-huge US city) into a clean PostgreSQL schema, with SQL views and a Tableau Public dashboard** that tell us the status about salaries, overtime and equity in the public sector of the American city.
 
 ---
 
 # ⚽ Main Goals
 
-> Set up a working PostgreSQL environment (with DBeaver as SQL client)  
-> Import the real **Louisville Metro payroll CSV** into a proper table  
-> Design a SQL schema and views to support analytics (salary distribution, overtime, inequality)  
-> Build a Tableau dashboard with 3–4 core views for business-style storytelling  
-> Document everything in a GitHub repo so the work is **reproducible**, not a one‑off experiment  
+> Setting up a working PostgreSQL environment (with DBeaver as SQL client)  
+> Importing the real **Louisville Metro payroll CSV** into a proper table  
+> Designing a SQL schema and views to support analytics (salary distribution, overtime, inequality)  
+> Building a Tableau dashboard with at least 4 core views for analytics-style storytelling  
+> Documenting everything in a GitHub repository to show the way how I'm working  
 
 ---
 
 # 📋 Step by Step
 
 📍 **Step 1: Losing time on PostgreSQL permissions**  
-Creating a simple table should be easy, right? It wasn’t. I hit `permission denied for schema public` more times than I can count. Fixing roles, grants, and reconnecting from DBeaver took longer than expected, but it forced me to really understand how PostgreSQL handles users and schemas.
+Creating a simple table should be easy, but that's not: I hit `permission denied for schema public` more times than I can count. Fixing roles, grants, and reconnecting from DBeaver took longer than expected, but it forced me to really understand how PostgreSQL handles users and schemas.
 
 📍 **Step 2: Designing the `salary_data` table and loading the CSV**  
 Once permissions were fixed, I created a clean table for the dataset and used DBeaver’s import wizard. First attempt failed because of NOT NULL constraints and column mismatches. After adjusting the mapping (especially `cal_year`, `ytd_total`, and overtime columns), the dataset finally landed in PostgreSQL.
