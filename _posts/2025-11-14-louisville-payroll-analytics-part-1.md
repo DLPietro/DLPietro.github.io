@@ -6,7 +6,7 @@ categories: public-sector
 tags: [sql, postgresql, dataengineering, tableau, payroll, analytics]
 ---
 
-# 🏙️ From Database Chaos to Structured Analytics
+# 🌍 From Database Chaos to Structured Analytics
 
 I was tired of looking at public data as a huge CSV and _not really understanding anything_: I wanted to go beyond “open data as a file” and build an actual **analytics pipeline** creating SQL queries, views, and a live dashboard.
 

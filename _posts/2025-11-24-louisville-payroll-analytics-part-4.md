@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🏙️ Louisville Payroll Analytics – Part 5: Building the Tableau Dashboard"
+title: "🏙️ Louisville Payroll Analytics – Part 4"
 date: 2025-11-24 21:36:47 +0200
 categories: public-sector
 tags: [tableau, bi, dashboard, payroll, analytics]

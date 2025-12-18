@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🏙️ Louisville Payroll Analytics – Part 6: Retrospective, Mistakes & Lessons"
+title: "🏙️ Louisville Payroll Analytics – Part 5"
 date: 2025-11-30 18:19:42 +0200
 categories: public-sector
 tags: [sql, tableau, portfolio, learning, retrospective]
@@ -45,34 +45,27 @@ And that’s exactly why this project matters to me. It’s not just “a finish
 
 ---
 
-# ❤️ What I Learned (Personal Side)
+# ❤️ What I Learned
 
-This project reminded me that:
+This project thaught me two things:
 
-- It’s okay if “hello world” with a new stack takes days instead of minutes.  
-- Real progress looks like: _it doesn’t work → I read logs → I try again → it works one step further_.  
-- Satisfaction hits when you finally run a complex query, refresh the dashboard, and the numbers make sense.
-
-I wanted to move from “I watched a tutorial” to “I built something end‑to‑end”.  
-This repo and the Louisville dashboard are my proof of that.
+> More difficult than expected
+> Satisfaction hits when you finally run a complex query, refresh the dashboard, and the numbers make sense.
 
 ---
 
-# 🔗 Links
+# 📊 Tableau Visual: Links
 
-- **GitHub Repository:** `https://github.com/...`  
-- **Tableau Public Dashboard:** `https://public.tableau.com/...`  
+<img src="https://github.com/DLPietro/DLPietro.github.io/raw/main/assets/img/louisville_dashboard.png" alt="Customer Value by Tier">
+<p><em>The dashboard shows the overall budget by department, overtime per department, salary ranking per job title, and the yearly trend comparing number of employees and average overtime rate.</em></p>
+
+🔗 **[View the Live Dashboard 👉](https://public.tableau.com/views/LouisvilleMetroPayrollAnalytics-PublicSectorSalaryDashboard/Dashboard1?:language=it-IT&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
 
 ---
 
-# 🎯 What’s Next
+# 🎯 What’s next now?
 
-> Reuse this pattern (PostgreSQL + SQL views + BI tool + README) for other domains (banking, iGaming, customer intelligence).  
-> Keep improving the Louisville project: maybe add forecasting, more advanced equity metrics, or scenario analysis.  
-> Bring these skills into real interviews and real work.
-
-If you’re reading this because you’re on a similar path: don’t underestimate the value of one solid, honest project that actually runs end‑to‑end.  
-This is mine.
+> General review about what I made so far and my future projects.
 
 ---
 
