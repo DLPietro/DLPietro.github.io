@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "🏙️ Louisville Payroll Analytics – Part 2"
-date: 2025-11-13 20:26:14 +0200
+date: 2025-11-16 20:26:14 +0200
 categories: public-sector
 tags: [sql, postgresql, dbeaver, dataengineering, debugging]
 ---
