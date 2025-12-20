@@ -70,4 +70,4 @@ That's exactly the reason why I'm passionate about this work, because I start wi
 [![Email](https://img.shields.io/badge/Email-dileopie-d14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dileopie@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Pietro-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pietrodileo)
 
-> _© 2025 Pietro Di Leo. From Operations to Data, one Commit at a Time._
+> _**© 2025 Pietro Di Leo. One Commit at a Time.**_
